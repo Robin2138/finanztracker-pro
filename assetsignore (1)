@@ -1,9 +1,0 @@
-node_modules/
-worker.js
-_worker.js
-package.json
-wrangler.jsonc
-bun.lock
-*.zip
-*.md
-*.sql
