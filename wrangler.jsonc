@@ -1,6 +1,6 @@
 {
   "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
-  "name": "finanztracker-pro2",
+  "name": "finanztracker-pro",
   "main": "worker.js",
   "compatibility_date": "2026-09-19",
   "assets": {
