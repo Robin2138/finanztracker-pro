@@ -1,0 +1,10 @@
+{
+  "name": "FinanzTracker",
+  "short_name": "FinanzTracker",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f8fc",
+  "theme_color": "#1769e0",
+  "description": "Moderner persönlicher Finanz- und Budgettracker.",
+  "icons": []
+}
