@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://finanztracker-pro.robin-hafner.workers.dev/sitemap.xml
