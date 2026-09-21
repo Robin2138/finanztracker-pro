@@ -238,3 +238,6 @@ function startApp(){document.getElementById('landing').style.display='none';docu
 function backHome(){document.getElementById('siteApp').style.display='none';document.getElementById('landing').style.display='block';window.scrollTo({top:0,behavior:'smooth'});}
 function openProPublic(){modal(`<div class="eyebrow" style="margin-bottom:10px">PRO</div><h3>FinanzTracker PRO</h3><p style="color:var(--muted);line-height:1.55">Der Bezahlbereich ist vorbereitet, aber noch nicht scharf geschaltet. Nach Einrichtung von Stripe wird hier der echte Checkout gestartet.</p><div class="notice blue">Beispielpreis: 3,99 € / Monat. Du kannst den Preis später in Stripe ändern.</div><div class="modal-actions"><button class="ghost" onclick="closeModal()">Schließen</button><button class="primary" onclick="openAuth('signup')">Konto erstellen</button></div>`);}
 function openAccount(){if(!currentUser){openAuth('login');return;}modal(`<h3>Mein Konto</h3><p style="color:var(--muted)">${esc(currentUser.email||'Angemeldet')}</p><div class="notice green">${window.ftEntitlement?.plan==='pro'?'FinanzTracker PRO aktiv':'Kostenloser Account'}</div><div class="modal-actions"><button class="ghost" onclick="closeModal()">Schließen</button><button class="danger" onclick="logout();closeModal()">Abmelden</button></div>`);}
+</script>
+</body>
+</html>
